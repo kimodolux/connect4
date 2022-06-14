@@ -41,6 +41,7 @@ const SocketHandler = (
       })
     })
   }
+  res.status(200).json({ name: 'John Doe' })
   res.end()
 }
 
