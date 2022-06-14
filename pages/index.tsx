@@ -35,6 +35,7 @@ const Home = () => {
   const newGame = () => {
     socket.emit('newGame')
   }
+  
 
   return (
     <>
